@@ -1,0 +1,27 @@
+.nav-links {
+  display: flex;
+	align-items: center;
+  position: relative;
+  flex-direction: column;
+  border-bottom: 1px solid $light-gray;
+  font-family: $sans-serif;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-links li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-links a:hover {
+  background: $light-gray;
+}
+
+.all {
+   text-decoration: underline;
+}
